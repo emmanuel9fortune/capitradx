@@ -1,0 +1,23 @@
+[
+    {
+        "type" : "Bronze",
+        "price" : "500",
+        "dept" : "Min Deposit $500",
+        "dept1" : "Referral Bonus",
+        "dep2" : "Full IT Support"
+    },
+    {
+        "type" : "Premium",
+        "price" : "1000",
+        "dept" : "Min Deposit $1000",
+        "dept1" : "Referral Bonus",
+        "dep2" : "Full IT Support"
+    },
+    {
+        "type" : "Gold",
+        "price" : "2500",
+        "dept" : "Min Deposit $2500",
+        "dept1" : "Referral Bonus",
+        "dep2" : "Full IT Support"
+    }
+]

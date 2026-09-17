@@ -1,0 +1,242 @@
+.loggedhd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    z-index: 1000;
+}
+
+.loghd{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 10vh;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+}
+
+.loghd1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logedhdlinks{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.logedhdlink{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.logedhdlink:hover{
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.logedhdlink1{
+    color: #f42f54;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.logh1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 1000;
+}
+
+.logedhdicons{
+    margin: 10px;
+    color: white;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#wifioff{
+    color: #f42f54;
+}
+
+.menudiv{
+    display: none;
+}
+
+.notification{
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    top: 4em;
+    height: 400px;
+    background-color: #0f1932;
+    box-shadow: 2px 4px 14px -3px grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification>h3{
+    margin-top: 1em;
+    padding: 10px;
+    width: 90%;
+    border-bottom: 2px solid grey;
+}
+
+.notbod{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.notbod::-webkit-scrollbar{
+    display: none;
+}
+
+.notbar{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.notbar>h3{
+    font-size: 15px;
+}
+
+.notbar>p{
+    font-size: 14px;
+}
+
+.notbar>small{
+    position: absolute;
+    right: .5em;
+    font-size: 10px;
+    bottom: .5em;
+}
+
+.menublock{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #0f19327e;
+    z-index: 1100;
+}
+
+.menubar{
+    width: 70%;
+    height: 100%;
+    background-color: #0f1932;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.menubarlinks{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4em;
+}
+
+.mologedhdlink1{
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    color: #f42f54;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.mologedhdlink>p{
+    margin-left: 1em;
+}
+
+.mologedhdlink1>p{
+    margin-left: 1em;
+}
+
+.mologedhdlink{
+    padding: 10px;
+    width: 90%;
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    padding-top: 15px;
+    display: flex;
+    color: white;
+    border: 1px solid #f42f54;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1112px){
+    .loggedhd{
+        display: none;
+    }
+    
+    .logedhdlinks{
+        display: none;
+    }
+    
+    .menudiv{
+        display: block;
+    }
+
+    .loghd1{
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    .logh1{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        z-index: 1000;
+    }
+}

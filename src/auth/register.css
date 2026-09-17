@@ -1,0 +1,579 @@
+.login{
+    width:100%;
+    height:70.5vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.loginbod{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:1000;
+}
+
+.loglogo{
+    width:60%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.loglogo::-webkit-scrollbar{
+    display: none;
+}
+
+.introbox{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    background-color: #16264d98;
+    padding-top: 3em;
+    border-radius: 10px;
+}
+
+.fstintrobox{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16264d98;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hdinrobox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    width: 90%;
+}
+
+.hdinrobox>h1{
+    color: white;
+}
+
+.hdinrobox>p{
+    color: #97afd5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.bodintrobox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.innerbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midinnerbox{
+    border-right: 1px solid #97afd5;
+    border-left: 1px solid #97afd5;
+}
+
+.innerbox>h1{
+    color: #f42f54;
+}
+
+.innerbox>p{
+    color: #97afd5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.innerdivs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+.innerdivs>h3{
+    font-size: 15px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.innerdivs>div>p{
+    color: #97afd5;
+}
+
+.innerdivs>div{
+    width: 80%;
+}
+
+.innerdivs>div>h3{
+    font-size: 15px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#minicons{
+    width: 2em;
+    height: 2em;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+.loginputs{
+    width:40%;
+    padding: 40px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.loginput{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+}
+
+.loginput>p{
+    color:white;
+    font-size:14px;
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+
+
+.loginput>input{
+    width:100%;
+    border:1px solid #97afd5;
+    background-color: transparent;
+    padding:15px;
+    border-radius:5px;
+    color:white;
+    zoom: 1;
+}
+
+.loginbtns{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logbtn{
+    width:90%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius:999px;
+    background-color: #f42f54;
+    border:none;
+    color:white;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 10000;
+}
+
+.logbtn1{
+    width:90%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius:999px;
+    background-color: rgba(245, 245, 245, 0.589);
+    border:none;
+    color:grey;
+    cursor: not-allowed;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.regbtn{
+    width:90%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius:999px;
+    margin-top:1em;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: white;
+}
+
+.forgt{
+    width:100%;
+    padding:1rem;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reglogo{
+    width: 60%;
+}
+
+.reginput{
+    width: 40%;
+}
+
+.regdbinp{
+    width: 90%;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.regdbinp>.loginput{
+    margin: 10px;
+}
+
+.reginput{
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+.regselect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.reglogo{
+    position: relative;
+}
+
+.reglogo>img{
+    width: 4em;
+    height: 4em;
+}
+
+.loglogo{
+    position: relative;
+}
+
+.loglogo>img{
+    width: 4em;
+    height: 4em;
+}
+
+.backbtn{
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+.regselect>select{
+    border: 1px solid #97afd5;
+    background-color: transparent;
+    width: 44%;
+    padding: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0f1932;
+}
+
+.emainp{
+    width: 90%;
+}
+
+.selectcountry{
+    border: 1px solid #97afd5;
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    height: 60px;
+}
+
+
+.regpass{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #97afd5;
+    margin: 5px;
+    border-radius: 5px;
+    color: #97afd5;
+}
+
+.regpass>input{
+    padding: 15px;
+    background-color: transparent;
+    width: 92%;
+    border: none;
+    outline-width: 0;
+    zoom: 1;
+    color: white;
+}
+
+.regbtns{
+    margin-top: 1em;
+}
+
+.agree{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.frgt{
+    margin-top: 4em;
+}
+
+.viewbtnicon{
+    width: 10%;
+    cursor: pointer;
+}
+
+.regdbinp{
+    display: flex;
+    align-items: center;
+}
+
+.backbtn{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 1000;
+}
+
+.backbtn>img{
+    width: 3em;
+    height: 3em;
+}
+
+.agree>input{
+    margin: 5px;
+    font-size: 15px;
+    zoom: 1;
+    outline-width: 0;
+    color: white;
+}
+
+.loginputreg{
+    width: 44%;
+    margin: 5px;
+}
+
+.loginputreg>input{
+    width:100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #97afd5;
+    outline-width: 0;
+    zoom: 1;
+    color: white;
+}
+
+.eminput{
+    width: 90%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.animate-bounce {
+    animation: bounce 1.5s infinite ease-in-out;
+}
+@keyframes bounce {
+    0%, 80%, 100% {
+    transform: scale(0);
+    }
+    40% {
+    transform: scale(1);
+    }
+}
+
+.loadbtn{
+    padding: 0.8rem 3.5rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .loginputreg{
+        width: 50%;
+        margin: 5px;
+    }
+
+    .introbox{
+        display: none;
+    }
+    .reglogo{
+        width: 100%;
+    }
+
+    .reginput{
+        width: 95%;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regdbinp{
+        width: 90%;
+    }
+
+    .regdbinp.loginput{
+        width: 50%;
+    }
+
+    .regdbinp>.loginput>input{
+        width: 95%;
+        color: white;
+    }
+
+    .emainp{
+        width: 95%;
+    }
+
+    .lgbtnss{
+        width: 90%;
+    }
+ 
+    .regselect{
+        width: 95%;
+    }
+
+    .regselect>select{
+        width: 50%;
+        color: white;
+    }
+
+    .lobxx{
+        height: 100vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .loginbtns{
+        width: 100%;
+    }
+
+    .loginbod{
+        width:100%;
+        height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction:column;
+    }
+
+    .loglogo{
+        width:95%;
+        height:100%;
+        display: none;
+    }
+    
+    .loginputs{
+        width:95%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding: 10px;
+    }
+
+    .loginput{
+        width: 100%;
+    }
+
+    .loginput>input{
+        width:100%;
+        border:1px solid #97afd5;
+        background-color: transparent;
+        padding:15px;
+        border-radius:5px;
+        color:white;
+    }
+
+    .eminput{
+        width: 90%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 300px){
+
+
+.lgbtnss{
+    width: 100px;
+}
+
+.whticon{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+}

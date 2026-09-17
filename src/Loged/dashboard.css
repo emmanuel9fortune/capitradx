@@ -1,0 +1,510 @@
+.dashboard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/shape-i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0f1932;
+}
+
+.dashboardbod{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.balancebod{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.dashboardavtr{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.dashboardavtr>p{
+    margin-left: .5em;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dashboardprice{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dashboardprice>p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dashminilinks{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.dashminilink{
+    width: 6em;
+    height: 6em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    background-color: #97afd54f;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.tradeviews{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.balancebod{
+    width: 30%;
+}
+
+.widget{
+    width: 50%;
+    height:80vh;
+}
+
+.logedbtm{
+    width: 100%;
+    height: 10vh;
+}
+
+.forexcrossrate{
+    width: 90%;
+    margin-top: 2em;
+}
+
+.dashboardbod::-webkit-scrollbar{
+    display: none;
+}
+
+.userhdprofilelnk{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.dashboardavtr{
+    text-decoration: none;
+    color: white;
+}
+
+.userboxprofile{
+    margin-left: 1em;
+}
+
+.userboxprofile>small{
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.copytradelnk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copytradelnk>p{
+    font-size: 10px;
+}
+
+.refe{
+    color: white;
+    margin-top: 4rem;
+}
+
+.reff>h3{
+    font-size: 30px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.refff{
+    width: fit-content;
+    border: 1px solid white;
+    padding: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.srchbb{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.srchbb>input{
+    padding: 10px;
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    outline-width: 0;
+    color: white;
+}
+
+.copdddd{
+    padding-top: 2rem;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.expslip{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.exphd{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.exphd>img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exprate{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.exprate>h3{
+    width: 90%;
+}
+
+.exprate>p{
+    width: 90%;
+}
+
+.cpbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.cpbtn>p{
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color:#f42f54;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.clbtn{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.clbtn>p{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.clbtn>button{
+    padding: 10px;
+    width: 50%;
+    background-color: #f42f54;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.boxwidth{
+    width: 300px;
+}
+
+.verbox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/shape-i.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0f1932;
+}
+
+.notverbod{
+    width:90%;
+    max-width:350px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.notveranim{
+    width:90%;
+}
+
+.notverbod>h3{
+    color:white;
+    font-size:25px;
+}
+
+.notverbod>p{
+    width:90%;
+    text-align:center;
+    color:#97afd5;
+    font-size:14px;
+    margin-top:1em;
+    line-height:24px;
+    margin-bottom:2em;
+}
+
+
+.arrowtrds{
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    height: 100px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.poptraders{
+    position: absolute;
+    left: 1em;
+    top: 30%;
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 450px;
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 0;
+}
+
+
+.poptraders>h3{
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.notlisted{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.timerr{
+    margin: 0 10px;
+}
+
+.innerpoptrader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.innerpoptrader::-webkit-scrollbar{
+    display: none;
+}
+
+.arrowbacktrader{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    height: 100px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+
+
+.emptcont{
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.boxxxtimer{
+    margin: 0 10px;
+}
+
+.boxxxtimer>strong{
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 1112px){
+    .dashboardbod{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding-top: 3rem;
+    }
+
+    .tradeviews{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    .balancebod{
+        width: 100%;
+    } 
+
+    .widget{
+        width: 95%;
+        height:80vh;
+    }
+
+    .srchbb{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin-top: 2em;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+    }
+
+    
+    .exphd{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    
+    .expslip{
+        width: 300px;
+        height: 320px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .tradeviews{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+    
+    .balancebod{
+        width: 100%;
+    } 
+
+    .widget{
+        width: 95%;
+        height:80vh;
+        margin-top: 8rem;
+    }
+
+    .dashminilinks{
+        width: 95%;
+    }
+
+    .forexcrossrate{
+        width: 95%;
+    }
+}

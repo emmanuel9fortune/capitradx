@@ -1,0 +1,127 @@
+.videoplayer{
+    height: 100%;
+    width: 50%;
+}
+
+.youtube1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.minebod{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mines{
+    background-color: white;
+}
+
+.minbtn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.minbtn1{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.minebox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 10px;
+}
+
+.minebox>p{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.minebox>button{
+    padding: 15px;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.mineanalysis{
+    width: 80%;
+}
+
+.stories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.story{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1112px){
+    .videoplayer{
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+
+    .minebd{
+        height: 100vh;
+    }
+    
+    .minebod{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: .5rem;
+    }
+
+    .youtube{
+        width: 210px;
+    }
+
+    .minebox{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.719);
+        border-radius: 10px;
+    }
+
+    .mineanalysis{
+        width: 90%;
+    }
+}
