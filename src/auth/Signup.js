@@ -146,7 +146,7 @@ function Signup() {
              await setDoc(doc(db, 'personalnot', ref.user.uid),{
                [rand + '.notify']: {
                title : 'Registration',
-               message : 'Thank you for joining us on Capitradx hope you have the best experience with us',
+               message : 'Thank you for joining us on Atrivas hope you have the best experience with us',
                timestamp : Timestamp.now()
                }
            })

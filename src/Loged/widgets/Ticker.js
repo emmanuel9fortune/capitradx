@@ -1,21 +1,37 @@
-import React from 'react'
-import {TickerTape } from 'react-ts-tradingview-widgets'
-
+import React from "react";
+import { TickerTape } from "react-ts-tradingview-widgets";
 
 function Ticker() {
   return (
-    <div>
-    <TickerTape 
-        symbol="AAPL"
+    <div style={{ width: "100%" }}>
+      <TickerTape
+        colorTheme="dark"
         locale="en"
-        interval="D"
-        theme="dark"
-        timezone="Etc/UTC"
-        toolbar_bg="#f1f3f6"
-        width="100%"
-        />
+        symbols={[
+          {
+            proName: "BINANCE:BTCUSDT",
+            title: "BTC/USDT",
+          },
+          {
+            proName: "BINANCE:ETHUSDT",
+            title: "ETH/USDT",
+          },
+          {
+            proName: "BINANCE:SOLUSDT",
+            title: "SOL/USDT",
+          },
+          {
+            proName: "BINANCE:XRPUSDT",
+            title: "XRP/USDT",
+          },
+          {
+            proName: "BINANCE:BNBUSDT",
+            title: "BNB/USDT",
+          },
+        ]}
+      />
     </div>
-  )
+  );
 }
 
-export default Ticker
+export default Ticker;

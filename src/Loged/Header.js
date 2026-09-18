@@ -176,7 +176,7 @@ function Header({vw1, vw2, vw3, vw4, vw5, vw6}) {
                     : null
                 }
 
-                <div className='logedhdicons'>
+                <div title='Internet Access' className='logedhdicons'>
                     <Connection>
                         <Wifi/>
                     </Connection>

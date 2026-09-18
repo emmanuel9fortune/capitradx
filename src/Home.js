@@ -262,7 +262,7 @@ function Home() {
 
             <div className='abtbod'  >
               <div className='abtbox'  data-aos ='zoom-in'>
-                <h3>WHY Capitradx ?</h3>
+                <h3>WHY Atrivas ?</h3>
                 <p>
                 We provide a unique global perspective through our global network, in-depth market and sector knowledge, you are assured of your investment will yield with us because we diversify and we have multiple income streams which include but not limited to: Cryptocurrency trading, Binary options trading, CFD's, Forex, Stock & Commodities.
                 </p>
@@ -278,7 +278,7 @@ function Home() {
               <div className='abtbox' data-aos ='zoom-in'>
                 <h3>OUR VISION</h3>
                 <p>
-                Capitradx consists a team of financial market professionals assembled specifically in order to provide the best possible trading conditions to its customers. Our specialists have been involved in the development of technical specification for designing an up-to-date platform that is suitable for both beginners.
+                Atrivas consists a team of financial market professionals assembled specifically in order to provide the best possible trading conditions to its customers. Our specialists have been involved in the development of technical specification for designing an up-to-date platform that is suitable for both beginners.
                 </p>
               </div>
             </div>
@@ -290,17 +290,17 @@ function Home() {
         <div className='platform' >
           <div className='abthd dd'  data-aos ='zoom-in' >
             <h1>OUR PLATFORM</h1>
-            <h4>Capitradx PLATFORM</h4>
+            <h4>Atrivas PLATFORM</h4>
           </div>
 
           <div className='platformbod'>
             <div className='platformwrt' data-aos ='fade-right'>
               <p>
-              Capitradx is one of the most transformative technologies since the invention of the Internet. Capitradx stands firmly in support of financial freedom and the liberty that Bitcoin provides globally for anyone to voluntarily participate in a permissionless and decentralized network which empowers people to not be marginalized by governments and financial institutions.
+              Atrivas is one of the most transformative technologies since the invention of the Internet. Atrivas stands firmly in support of financial freedom and the liberty that Bitcoin provides globally for anyone to voluntarily participate in a permissionless and decentralized network which empowers people to not be marginalized by governments and financial institutions.
               </p>
 
               <p>
-              We welcome you to the digital world of crypto investment, Capitradx - where our clients will receive stable and risk-free long-term returns by placing your Bitcoin, Ethereum and Litecoin asset in our online profound asset management program. Capitradx is an active cryptocurrency mining and trading participant, crypto-currency asset management, which is built on many years of experience and deep market knowledge in the stock and digital market.
+              We welcome you to the digital world of crypto investment, Atrivas - where our clients will receive stable and risk-free long-term returns by placing your Bitcoin, Ethereum and Litecoin asset in our online profound asset management program. Atrivas is an active cryptocurrency mining and trading participant, crypto-currency asset management, which is built on many years of experience and deep market knowledge in the stock and digital market.
               </p>
             </div>
  
@@ -325,7 +325,7 @@ function Home() {
             <div className='abthd dd'  data-aos ='zoom-in' >
               <h1>OUR FEATURES</h1>
               <h4>Features</h4>
-              <p>Why Choose Capitradx ?</p>
+              <p>Why Choose Atrivas ?</p>
             </div>
 
 
@@ -340,20 +340,20 @@ function Home() {
               <div className='featurewrt' >
                 <div className='featurewrtbox' data-aos ='zoom-in'>
                   <TaskAltIcon id='task' />
-                  <p>Capitradx is completely free of charge!</p>
+                  <p>Atrivas is completely free of charge!</p>
                 </div>
 
                 <div className='featurewrtbox' data-aos ='zoom-in'>
                   <TaskAltIcon id='task' />
                   <p>
-                  Capitradx can help you trade in both the manual and automatic formats with an average of 87.35% Win Rate across all compatible brokers.
+                  Atrivas can help you trade in both the manual and automatic formats with an average of 87.35% Win Rate across all compatible brokers.
                   </p>
                 </div>
 
                 <div className='featurewrtbox' data-aos ='zoom-in'>
                   <TaskAltIcon id='task' />
                   <p>
-                  Capitradx is fully SSL and highly secure thereby providing little or no chance for your personal details to be phished by cyber-criminals.
+                  Atrivas is fully SSL and highly secure thereby providing little or no chance for your personal details to be phished by cyber-criminals.
                   </p>
                 </div>
 
@@ -367,7 +367,7 @@ function Home() {
                 <div className='featurewrtbox' data-aos ='zoom-in'>
                   <TaskAltIcon id='task' />
                   <p>
-                  Capitradx can be synced with the Top-Class brokers in the market providing you with security for your capital and a peace of mind.
+                  Atrivas can be synced with the Top-Class brokers in the market providing you with security for your capital and a peace of mind.
                   </p>
                 </div>
 
@@ -443,7 +443,7 @@ function Home() {
                 <h1>OUR TEAM</h1>
                 <h4>OUR TEAM</h4>
                 <p className='hdteam'>
-                Capitradx Team combines a passion for fintech and proven record in finance, development and deep market analysis. You are in safe hands.
+                Atrivas Team combines a passion for fintech and proven record in finance, development and deep market analysis. You are in safe hands.
                 </p>
             </div>
 
@@ -641,7 +641,7 @@ function Home() {
                   {
                     fst ?
                     <p>
-                    Capitradx is a professional trading & investment company with emphasis on cryptocurrency, forex, binary option, CFDs. We are a group of qualified and trained financiers with technical knowledge. We actively monitor and trade the forex market, binary option, CFDs. The vast majority of customer deposits are stored offline in air-gapped cold storage. We only keep enough online to facilitate active trading, which greatly minimizes risk and exposure. Our auditing programs monitor every activity 24/7/365. Their job is to report and block any suspicious activity before it becomes a problem. We have strong roots and believe in customer service and transparency. We are committed to optimum delivery and uprightness. We let our service do the talking. Any funds you put into Capitradx are only used to facilitate trading through your account. Unlike banks, we do not operate on fractional reserves.
+                    Atrivas is a professional trading & investment company with emphasis on cryptocurrency, forex, binary option, CFDs. We are a group of qualified and trained financiers with technical knowledge. We actively monitor and trade the forex market, binary option, CFDs. The vast majority of customer deposits are stored offline in air-gapped cold storage. We only keep enough online to facilitate active trading, which greatly minimizes risk and exposure. Our auditing programs monitor every activity 24/7/365. Their job is to report and block any suspicious activity before it becomes a problem. We have strong roots and believe in customer service and transparency. We are committed to optimum delivery and uprightness. We let our service do the talking. Any funds you put into Atrivas are only used to facilitate trading through your account. Unlike banks, we do not operate on fractional reserves.
                     </p>
                   :
                   null
@@ -674,12 +674,12 @@ function Home() {
                   {
                     trd ?
                     <div className='fqasboxhd pink'>
-                      <h3>Is using Capitradx free of charge?</h3>
+                      <h3>Is using Atrivas free of charge?</h3>
                       <MinimizeIcon/>
                     </div>
                   :
                   <div className='fqasboxhd'>
-                    <h3>Is using Capitradx free of charge?</h3>
+                    <h3>Is using Atrivas free of charge?</h3>
                     <Add/>
                   </div>
                   }
@@ -696,19 +696,19 @@ function Home() {
                   {
                     frt ?
                       <div className='fqasboxhd pink'>
-                        <h3>Is Capitradx a legitimate company?</h3>
+                        <h3>Is Atrivas a legitimate company?</h3>
                         <MinimizeIcon/>
                       </div>
                       :
                       <div className='fqasboxhd'>
-                        <h3>Is Capitradx a legitimate company?</h3>
+                        <h3>Is Atrivas a legitimate company?</h3>
                         <Add/>
                       </div>
                   }
                   {
                     frt ?
                     <p>
-                      Capitradx LTD is a legal investment company incorporated in the United Kingdom.
+                      Atrivas LTD is a legal investment company incorporated in the United Kingdom.
                     </p>
                     : null
                   }
@@ -837,7 +837,7 @@ function Home() {
                     fst ?
                     <p>
                     
-                    Capitradx is open to everyone of legal age to make investments and financial decisions for themselves. You are responsible for making sure that you comply with local laws.
+                    Atrivas is open to everyone of legal age to make investments and financial decisions for themselves. You are responsible for making sure that you comply with local laws.
                     </p>
                   :
                   null
@@ -950,7 +950,7 @@ function Home() {
                 <Lottie animationData={dl} className='dl' />
                 <div className='contactlinks'>
                   {/* <a href='tel:+1-2738-3847'> <Phone/> +1-2738-3847</a> */}
-                  <a href='info@Capitradx.com'> <Email/> info@Capitradx.com</a>
+                  <a href='info@Atrivas.com'> <Email/> info@Atrivas.com</a>
                 </div>
               </div>
 
@@ -988,7 +988,7 @@ function Home() {
             </div>
 
             <div className='homebottom' >
-              <p>Capitradx © 2014. ALL RIGHTS RESERVED</p>
+              <p>Atrivas © 2014. ALL RIGHTS RESERVED</p>
 
               <div className='bottomlink'>
                 <a href='/'>PRIVACY POLICY</a>

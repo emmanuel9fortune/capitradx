@@ -100,7 +100,7 @@ return (
                       <option value='btc' >BTC Trading</option>
                       <option value={'eth'}>ETH Trading</option>
                       <option value={'usdt'} >USDT Trading</option>
-                      <option value={'usdc'} >USDC Trading</option>
+                      <option value={'xrp'} >XRP Trading</option>
                   </select>
                   <label style={{color:'white'}} >Trade</label>
                   {

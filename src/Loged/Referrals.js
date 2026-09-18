@@ -36,10 +36,10 @@ function Refferals() {
                 </div>
 
                 <div className='walllink' >
-                    <p>https://Capitradx.com/refferal_signup?user=467</p>
+                    <p>https://Atrivas.com/refferal_signup?user=467</p>
                     <div className='copy'>
                     <CopyAll style={{cursor:'pointer'}} onClick={()=>{ 
-                    navigator.clipboard.writeText('https://Capitradx.com/refferal_signup?user=467')
+                    navigator.clipboard.writeText('https://Atrivas.com/refferal_signup?user=467')
                     alert('copied')
                     }}/>
                     </div>

@@ -49,29 +49,29 @@ function Wallet() {
   
   
     const btc1 = ()=>{
-      navigator.clipboard.writeText('bc1qkjmd2un60c8nzatppkfapdrrcad7g7afxww6gh')
+      navigator.clipboard.writeText('bc1qf27dl3s565h3t03nhht5sdq2walaczv9cn4x8z')
       toast('copied')
     }
   
     const usdt1 = ()=>{
-      navigator.clipboard.writeText('0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134')
+      navigator.clipboard.writeText('0x9fbb839119a32AeA366aF25FA63757C8C35047A9')
       toast('copied')
     }
   
     const eth1 = ()=>{
-      navigator.clipboard.writeText('0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134')
+      navigator.clipboard.writeText('0x9fbb839119a32AeA366aF25FA63757C8C35047A9')
       toast('copied')
     }
   
     const xrp1 = ()=>{
-      navigator.clipboard.writeText('rBsiswjdkFLfxxG3ceDLG6DA7XtazDTgy2')
+      navigator.clipboard.writeText('rPXtLsvwop9hnt9KrM2znFzG57RwGSXd7V')
       toast('copied')
     }
   
-    const usdc = ()=>{
-      navigator.clipboard.writeText('0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134')
-      toast('copied')
-    }
+    // const usdc = ()=>{
+    //   navigator.clipboard.writeText('0x9fbb839119a32AeA366aF25FA63757C8C35047A9')
+    //   toast('copied')
+    // }
 
 
 
@@ -122,12 +122,12 @@ function Wallet() {
             {
             deb?.wallet === 'btc' ?
             <>
-                <CopyToClipboard text={'bc1qkjmd2un60c8nzatppkfapdrrcad7g7afxww6gh'} onCopy={btc1}>
+                <CopyToClipboard text={'bc1qf27dl3s565h3t03nhht5sdq2walaczv9cn4x8z'} onCopy={btc1}>
               <div className='walllink'>
                   <div >
                       <CopyAll  />
                   </div>
-                <p>bc1qkjmd2un60c8nzatppkfapdrrcad7g7afxww6gh</p>
+                <p>bc1qf27dl3s565h3t03nhht5sdq2walaczv9cn4x8z</p>
               </div>
                 </CopyToClipboard>
 
@@ -144,12 +144,12 @@ function Wallet() {
             {
             deb?.wallet === 'eth' ?
             <> 
-                <CopyToClipboard text={'0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134'} onCopy={eth1}>
+                <CopyToClipboard text={'0x9fbb839119a32AeA366aF25FA63757C8C35047A9'} onCopy={eth1}>
               <div className='walllink'>
                   <div >
                   <CopyAll/>
                   </div>
-                <p>0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134</p>
+                <p>0x9fbb839119a32AeA366aF25FA63757C8C35047A9</p>
               </div>
                 </CopyToClipboard>
 
@@ -167,12 +167,12 @@ function Wallet() {
             {
             deb?.wallet === 'usdt' ?
             <>
-                <CopyToClipboard text={'0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134'} onCopy={usdt1}>
+                <CopyToClipboard text={'0x9fbb839119a32AeA366aF25FA63757C8C35047A9'} onCopy={usdt1}>
               <div className='walllink'>
                   <div >
                   <CopyAll/>
                   </div>
-                <p>0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134</p>
+                <p>0x9fbb839119a32AeA366aF25FA63757C8C35047A9</p>
               </div>
                 </CopyToClipboard>
 
@@ -187,12 +187,12 @@ function Wallet() {
             {
             deb?.wallet === 'xrp' ?
             <>
-                <CopyToClipboard text={'rBsiswjdkFLfxxG3ceDLG6DA7XtazDTgy2'} onCopy={xrp1}>
+                <CopyToClipboard text={'rPXtLsvwop9hnt9KrM2znFzG57RwGSXd7V'} onCopy={xrp1}>
                   <div className='walllink'>
                       <div>
                         <CopyAll/>
                       </div>
-                    <p>rBsiswjdkFLfxxG3ceDLG6DA7XtazDTgy2</p>
+                    <p>rPXtLsvwop9hnt9KrM2znFzG57RwGSXd7V</p>
                   </div>
                 </CopyToClipboard>
 
@@ -204,15 +204,15 @@ function Wallet() {
             null
            }
 
-            {
+            {/* {
             deb?.wallet === 'usdc' ?
             <>
-                <CopyToClipboard text={'0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134'} onCopy={usdc}>
+                <CopyToClipboard text={'0x9fbb839119a32AeA366aF25FA63757C8C35047A9'} onCopy={usdc}>
                   <div className='walllink'>
                       <div>
                         <CopyAll/>
                       </div>
-                    <p>0xFe4F2c4eCB7897759d28ceDDcAc0407dCa878134</p>
+                    <p>0x9fbb839119a32AeA366aF25FA63757C8C35047A9</p>
                   </div>
                 </CopyToClipboard>
 
@@ -222,7 +222,7 @@ function Wallet() {
             </>
             :
             null
-           }
+           } */}
 
             <button className='uploadbtn' onClick={handleproof} >UPLOAD PAYMENT PROOF</button>
             <button className='waitbtn' onClick={handlewait}  >WAIT FOR CONFIRMATION</button>

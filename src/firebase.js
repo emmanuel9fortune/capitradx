@@ -21,13 +21,13 @@ import { getAuth } from 'firebase/auth';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBDWPQDpk1IwYi5SX687666zwV9Y17CN9g",
-  authDomain: "capitradx-authentication.firebaseapp.com",
-  projectId: "capitradx-authentication",
-  storageBucket: "capitradx-authentication.firebasestorage.app",
-  messagingSenderId: "269687834444",
-  appId: "1:269687834444:web:a1ca67f2be63e70ff1f1e9",
-  measurementId: "G-ZQKBK0PCG0"
+  apiKey: "AIzaSyBqfoPxPxGg1aNLo0ar6Fl1yAQ1wWKxeT4",
+  authDomain: "atrivas-ledger.firebaseapp.com",
+  projectId: "atrivas-ledger",
+  storageBucket: "atrivas-ledger.firebasestorage.app",
+  messagingSenderId: "884836587416",
+  appId: "1:884836587416:web:64806faa7c652a80e83ded",
+  measurementId: "G-XQE8EGM4Z5"
 };
 
 const app = firebase.initializeApp(firebaseConfig)
